@@ -4,7 +4,7 @@ A Next.js + TypeScript app that simulates a Perplexity-style planner.
 It connects to three mocked data sources (Website, Shopify, Facebook Page) and outputs a streaming JSON campaign plan across four channels (Email, SMS, WhatsApp, Ads).
 
 Getting Started:
-npm install
+npm install, 
 npm run dev
 
 
