@@ -12,6 +12,10 @@ Then open http://localhost:3000
 
 Tips : Click to select all Data Sources and Channels then click Generate Plan button
 
+##  Preview
+
+![App Screenshot](public/screenshot.png)
+
 Tech Stack
 
 Next.js 14 (App Router)
