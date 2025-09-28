@@ -3,7 +3,7 @@ Markopolo AI – Full-Stack Challenge
 A Next.js + TypeScript app that simulates a Perplexity-style planner.
 It connects to three mocked data sources (Website, Shopify, Facebook Page) and outputs a streaming JSON campaign plan across four channels (Email, SMS, WhatsApp, Ads).
 
-Getting Started
+Getting Started:
 npm install
 npm run dev
 
@@ -12,11 +12,11 @@ Then open http://localhost:3000
 
 Tips : Click to select all Data Sources and Channels then click Generate Plan button
 
-##  Preview
+##  Preview:
 
 ![App Screenshot](public/screenshot.png)
 
-Tech Stack
+Tech Stack:
 
 Next.js 14 (App Router)
 
@@ -24,7 +24,7 @@ TypeScript
 
 Server-Sent Events (SSE) for real-time streaming
 
-Where to Look
+Where to Look:
 
 /app/api/connect/route.ts – connect a data source
 
@@ -38,11 +38,11 @@ Where to Look
 
 /components/Chat.tsx – channel selector and streaming JSON viewer
 
-Notes
+Notes:
 
 This repository uses mock connectors so it runs without any external credentials. That means you can clone and run it out-of-the-box — no API keys or accounts are required.
 
-(Optional) Using Real Credentials
+(Optional) Using Real Credentials:
 
 If you want to connect real data sources (Shopify, Facebook, website events, etc.) instead of the mock data, you can do so easily:
 
